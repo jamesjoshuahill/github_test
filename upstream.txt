@@ -1,1 +1,3 @@
-Explain what the "upstream" remote is usualy used for, in your own words
+The 'upstrem' remote of a git repository is usually used when you are working on a fork of a repository that you do not have push access to.
+
+A common working practice is to fork a repository and then to create a new development branch to work on. From time to time the master branch is updated by fetching from the 'upstream' remote and rebase the local master branch with the latest commits from the 'upstream' remote. And then change back into your development branch and rebase it with the master branch to bring your development branch up to date.
