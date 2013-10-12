@@ -1,1 +1,7 @@
-In git, all repositories start on a branch called master and all commits are saved in the master branch. New branches can be made using the git checkout <branch_name> command. New branches will be a copy of the entire branch you are on with all of the commit history. Once branches are formed it is possible to switch between them and to merge the commits to/from another branch.
+In git, all repositories start on a branch called master and all commits are
+saved in the master branch. New branches can be made using the
+`git checkout <branch_name> command`.
+
+New branches will be a copy of the entire branch you are on with all of the
+commit history. Once branches are formed it is possible to switch between them
+and to merge the commits to/from another branch.

@@ -1,4 +1,4 @@
-The 'git clone <repository_location> (<directory_name>)' command will:
+The `git clone <repository_location> (<directory_name>)` command will:
 
 1) make a new directory called the name of the repository, or directory_name if specified
 2) change into the new directory
